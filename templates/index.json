@@ -9,64 +9,37 @@
  */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/Frame_1000006603.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "image_with_text_X8FpPE": {
-      "type": "image-with-text",
-      "blocks": {
-        "text_YcECJ9": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Embark on a journey of health and joy with<br/>Gumazing, a brand meticulously designed to enrich the lives of children through delectable and nutritious supplements.<br/>Gumazing isn’t just a product it’s an unwavering commitment to ensuring every child receives the indispensable nutrients required to thrive.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_BfpUHi": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "shopify://collections/all-1",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "text_YcECJ9",
-        "button_BfpUHi"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/3fbc84b9577098fe278d97ca65df751f.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_banner",
-    "image_with_text_X8FpPE"
+    "featured_collection"
   ]
 }

@@ -14,38 +14,23 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_7AHWWk": {
+        "announcement-bar-0": {
           "type": "announcement",
           "settings": {
             "text": "Welcome to our store",
             "link": ""
           }
-        },
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "Save 50% OFF on Select of any gummies",
-            "link": ""
-          }
-        },
-        "announcement_ff6wyP": {
-          "type": "announcement",
-          "settings": {
-            "text": "Buy 2 get 2 free",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "announcement_7AHWWk",
-        "announcement-bar-0",
-        "announcement_ff6wyP"
+        "announcement-bar-0"
       ],
+      "disabled": true,
       "settings": {
-        "color_scheme": "scheme-ae6624a8-c246-4402-a89c-973c94aad312",
+        "color_scheme": "scheme-1",
         "show_line_separator": true,
-        "show_social": true,
-        "auto_rotate": true,
+        "show_social": false,
+        "auto_rotate": false,
         "change_slides_speed": 5,
         "enable_country_selector": false,
         "enable_language_selector": false
@@ -53,12 +38,13 @@
     },
     "header": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "logo_position": "middle-left",
-        "menu": "gumazing-header",
-        "menu_type_desktop": "mega",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
-        "show_line_separator": false,
+        "show_line_separator": true,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "scheme-1",
         "enable_country_selector": true,
